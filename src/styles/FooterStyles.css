@@ -1,0 +1,11 @@
+.footer{
+    background-color: #000000;
+    gap: 10px;
+    padding: 15px 20px;
+}
+@media screen and (min-width: 1024px) {
+    .footer{
+        gap: 0px;
+        padding: 40px 80px;
+    }
+}

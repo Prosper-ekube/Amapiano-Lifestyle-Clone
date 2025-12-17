@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #feeae3;
+  padding: 20px;
+}
+.navbar-amapiano-lifestyle-icon {
+  height: 20px;
+  width: 87px;
+}
+.navbar-hamburger-menu-container {
+  background-color: #ffffff;
+  border-radius: 50px;
+  height: 33px;
+  width: 68px;
+}
+@media screen and (min-width: 1024px) {
+  .navbar {
+    padding: 40px 80px;
+  }
+  .navbar-amapiano-lifestyle-icon {
+    height: 40px;
+    width: 174px;
+  }
+  .navbar-hamburger-menu-container {
+    height: 66px;
+    width: 136px;
+  }
+}
