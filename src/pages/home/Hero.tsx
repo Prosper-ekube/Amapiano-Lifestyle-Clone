@@ -8,7 +8,7 @@ const Hero = () => {
 		query: '(min-width: 1024px)'
 	})
 	return (
-		<div className={`hero-section`} style={{ position: 'relative' }}>
+		<div className={`home-page-hero-section`} style={{ position: 'relative' }}>
 			<div className={`align-items-center flex-column justify-content-center`} style={{ gap: '10px', position: 'relative', zIndex: '2' }}>
 				<h3 className={`bold-text color5 ${isDesktopOrLaptop ? 'font-size-32' : 'font-size-14'}`}>IT'S NOT A GENRE.</h3>
 				<h1 className={`color3 extra-bold-text ${isDesktopOrLaptop ? 'font-size-160' : 'font-size-52'} text-center`}
@@ -22,8 +22,8 @@ const Hero = () => {
 				</p>
 				<Button style={{ marginTop: isDesktopOrLaptop ? '50px' : '25px' }} text={'Join The Lifestyle'} blackBgWhiteText />
 			</div>
-			<img alt='Palm Fronds' className={`home-palm-fronds home-palm-fronds-right`} src={palm_frond} />
-			<img alt='Palm Fronds' className={`home-palm-fronds home-palm-fronds-left`} src={palm_frond} />
+			<img alt='Palm Fronds' className={`home-page-hero-section-palm-fronds home-page-hero-section-palm-fronds-right`} src={palm_frond} />
+			<img alt='Palm Fronds' className={`home-page-hero-section-palm-fronds home-page-hero-section-palm-fronds-left`} src={palm_frond} />
 		</div>                
   	)
 }
