@@ -1,0 +1,15 @@
+.button {
+	border: 1px solid #000000;
+	border-radius: 50px;
+	font-family: 'AlbertSans';
+	height: 45px;
+	padding: 10px 16px;
+	width: 97px;
+}
+@media screen and (min-width: 1024px) {
+	.button {
+		height: 58px;
+		padding: 21px 32px;
+		width: 195px;
+	}
+}
