@@ -1,34 +1,80 @@
 .home-page-hero-section {
-    background-color: #feeae3;    
-    padding-bottom: 150px;
+    background-color: #feeae3;
+    padding: 25px 0 90px 0;
 }
-.home-page-hero-section-palm-fronds{
-    bottom: 90px;
+.home-page-hero-section-palm-fronds {
+    bottom: 180px;
     height: 130px;
     position: absolute;
     z-index: 1;
 }
-.home-page-hero-section-palm-fronds-left{
+.home-page-hero-section-palm-fronds-left {
     right: 0;
     transform: scaleX(-1);
 }
+.home-page-intro-media-section {
+    background-color: #ffffff;
+    gap: 30px;
+    padding-top: 180px;
+    position: relative;
+}
+.home-page-intro-image{
+    height: 180px; 
+    position: absolute; 
+    top: -35px;
+}
+.home-page-intro-media-section-text-container{
+    gap: 10px;
+}
+.home-page-intro-media-section-paragraph {
+    margin-top: 10px;
+    max-width: 460px;
+    width: 92%;
+}
 @media screen and (min-width: 768px) {
-    .home-page-hero-section{
-        padding-bottom: 180px;
+    .home-page-hero-section {
+        padding: 60px 0 140px 0;
     }
-    .home-page-hero-section-palm-fronds{
+    .home-page-hero-section-palm-fronds {
         bottom: 0px;
         height: 300px;
         top: 10px;
     }
+    .home-page-intro-media-section {        
+        padding-top: 27.344dvh;    
+    }
+    .home-page-intro-image{
+        height: unset;
+        width: 69.401vw;
+        top: -80px;        
+    }
 }
 @media screen and (min-width: 1024px) {
-    .home-page-hero-section{
-        padding-bottom: 340px;
+    .home-page-hero-section {
+        padding: 90px 0 180px 0;
     }
-    .home-page-hero-section-palm-fronds{
+    .home-page-hero-section-palm-fronds {
         bottom: 0px;
-        height: 40dvw;
-        top: 80px;
+        height: 601px;        
+        top: 45px;
+    }
+    .home-page-intro-media-section-paragraph {
+        width: 613px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .home-page-hero-section {
+        padding-bottom: 220px;
+    }
+    .home-page-intro-media-section{
+        padding-top: 550px;
+    }
+    .home-page-intro-image{
+        top: -110px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .home-page-intro-media-section{
+        padding-top: 65dvh;
     }
 }
