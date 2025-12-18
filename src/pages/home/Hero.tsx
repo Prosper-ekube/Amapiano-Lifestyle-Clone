@@ -1,7 +1,7 @@
+import { useMediaQuery } from 'react-responsive'
 import Button from '../../components/Button'
 import '../../styles/HomeStyles.css'
 import palm_frond from '../../assets/images/palm_fronds.png'
-import { useMediaQuery } from 'react-responsive'
 
 const Hero = () => {
 	const isDesktopOrLaptop = useMediaQuery({
