@@ -1,0 +1,27 @@
+.hero-section {
+    background-color: #feeae3;    
+}
+.home-palm-fronds{
+    bottom: 90px;
+    height: 130px;
+    position: absolute;
+    z-index: 1;
+}
+.home-palm-fronds-left{
+    right: 0;
+    transform: scaleX(-1);
+}
+@media screen and (min-width: 768px) {
+    .home-palm-fronds{
+        bottom: 0px;
+        height: 300px;
+        top: 10px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .home-palm-fronds{
+        bottom: 0px;
+        height: 40dvw;
+        top: 80px;
+    }
+}
