@@ -15,21 +15,62 @@
 .home-page-intro-media-section {
     background-color: #ffffff;
     gap: 30px;
-    padding-top: 180px;
+    padding: 180px 0 135px 0;
     position: relative;
 }
-.home-page-intro-image{
-    height: 180px; 
-    position: absolute; 
+.home-page-intro-image {
+    height: 180px;
+    position: absolute;
     top: -35px;
 }
-.home-page-intro-media-section-text-container{
+.home-page-intro-media-section-text-container {
     gap: 10px;
 }
 .home-page-intro-media-section-paragraph {
     margin-top: 10px;
     max-width: 460px;
     width: 92%;
+}
+.home-page-manifesto-section {
+    background-color: #015347;
+    background-image: url("../assets/images/background_pattern.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.home-page-manifesto-images-container {
+    height: 22dvh;
+    position: absolute;
+    top: -95px;
+    width: 100%;
+}
+.home-page-manifesto-image {
+    width: 32dvw;
+    height: 100%;
+}
+.home-page-manifesto-section-text-container {
+    gap: 15px;
+    padding: 15dvh 0 60px;
+    position: relative;
+}
+.home-page-manifesto-section-party-shades {
+    height: 60px;
+    position: absolute;
+    left: 10px;
+    top: 10dvh;
+}
+.home-page-manifesto-section-text-container h2 {
+    line-height: 100%;
+}
+.home-page-manifesto-section-text-container p {
+    width: 300px;
+}
+.home-page-manifesto-section-red-cup {
+    height: 80px;
+    position: absolute;
+    right: 20px;
+    bottom: -20px;
 }
 @media screen and (min-width: 768px) {
     .home-page-hero-section {
@@ -40,13 +81,42 @@
         height: 300px;
         top: 10px;
     }
-    .home-page-intro-media-section {        
-        padding-top: 27.344dvh;    
+    .home-page-intro-media-section {
+        padding: 27.344dvh 0 25dvh 0;
     }
-    .home-page-intro-image{
+    .home-page-intro-image {
         height: unset;
         width: 69.401vw;
-        top: -80px;        
+        top: -80px;
+    }
+    .home-page-manifesto-images-container {
+        height: 30dvh;
+        top: -195px;
+    }
+    .home-page-manifesto-image {
+        width: 32dvw;
+    }
+    .home-page-manifesto-section-text-container {
+        gap: 25px;
+        padding: 20dvh 0 75px;
+    }
+    .home-page-manifesto-section-party-shades {
+        height: 100px;
+        left: 18dvw;
+        top: 15dvh;
+    }
+    .home-page-manifesto-section-text-container h2 {
+        width: 400px;
+    }
+    .home-page-manifesto-section-red-cup {
+        height: 140px;
+        right: 12dvw;
+        bottom: -5dvh;
+    }
+}
+@media screen and (min-height: 812px) and (max-width: 500px) {
+    .home-page-manifesto-section-party-shades {
+        top: 12dvh;
     }
 }
 @media screen and (min-width: 1024px) {
@@ -55,26 +125,72 @@
     }
     .home-page-hero-section-palm-fronds {
         bottom: 0px;
-        height: 601px;        
+        height: 601px;
         top: 45px;
+    }
+    .home-page-intro-media-section {
+        padding: 27.344dvh 0 28dvh 0;
     }
     .home-page-intro-media-section-paragraph {
         width: 613px;
+    }
+    .home-page-manifesto-images-container {
+        height: 34dvh;
+        top: -295px;
+    }
+    .home-page-manifesto-section-text-container {
+        padding: 27dvh 0 9dvh;
+    }
+    .home-page-manifesto-section-party-shades {
+        height: 14dvh;
+        left: 4.5dvw;
+        top: 19.8dvh;
+    }
+    .home-page-manifesto-section-text-container h2 {
+        width: 580px;
+    }
+    .home-page-manifesto-section-text-container p {
+        width: 450px;
+    }
+    .home-page-manifesto-section-red-cup {
+        height: 16dvh;
+        right: 10dvw;
+        bottom: -5dvh;
     }
 }
 @media screen and (min-width: 1280px) {
     .home-page-hero-section {
         padding-bottom: 220px;
     }
-    .home-page-intro-media-section{
-        padding-top: 550px;
+    .home-page-intro-media-section {
+        padding: 85dvh 0 59dvh 0;
     }
-    .home-page-intro-image{
+    .home-page-intro-image {
         top: -110px;
+    }
+    .home-page-manifesto-images-container {
+        height: 75dvh;
+        top: -48dvh;
+    }
+    .home-page-manifesto-image {
+        width: 32.5dvw;
+    }
+    .home-page-manifesto-section-text-container {
+        padding: 48dvh 0 12dvh;
+    }
+    .home-page-manifesto-section-party-shades {
+        height: 22dvh;
+        left: 15.1dvw;
+        top: 37dvh;
+    }
+    .home-page-manifesto-section-red-cup {
+        height: 28dvh;
+        right: 17dvw;
+        bottom: -8.5dvh;
     }
 }
 @media screen and (min-width: 1440px) {
-    .home-page-intro-media-section{
+    .home-page-intro-media-section {
         padding-top: 65dvh;
     }
 }

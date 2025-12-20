@@ -2,6 +2,7 @@ import Navbar from '../../components/layout/Navbar'
 import Footer from '../../components/layout/Footer'
 import Hero from './Hero'
 import IntroMedia from './IntroMedia'
+import Manifesto from './Manifesto'
 import '../../styles/HomeStyles.css'
 
 const Home: React.FC = () => {
@@ -11,6 +12,7 @@ const Home: React.FC = () => {
             <main className={`home-main`}>
                 <Hero />     
                 <IntroMedia />
+                <Manifesto />
             </main>
             <Footer />
         </>
