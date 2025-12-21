@@ -113,6 +113,9 @@ body {
 .font-size-58 {
   font-size: 58px;
 }
+.font-size-64{
+  font-size: 64px;
+}
 .font-size-70 {
   font-size: 70px;
 }
@@ -189,6 +192,9 @@ body {
   }
   .font-size-58 {
     font-size: 3.625rem;
+  }
+  .font-size-64 {
+    font-size: 4rem;
   }
   .font-size-70 {
     font-size: 4.375rem;
