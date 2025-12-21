@@ -72,6 +72,26 @@
     right: 20px;
     bottom: -20px;
 }
+.home-page-lifestyle-promo-section{
+    background-image: radial-gradient(
+      ellipse at center,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 80%
+    ),url("../assets/images/black_girl_vibing_outdoors.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+    gap:30px;
+    padding: 50px 0;
+}
+.home-page-lifestyle-promo-section h2{
+    width: 280px;
+}
+.home-page-lifestyle-promo-section-paragraph-button-container{
+    gap: 20px;
+    width: 300px;
+}
 @media screen and (min-width: 768px) {
     .home-page-hero-section {
         padding: 60px 0 140px 0;
@@ -157,6 +177,23 @@
         right: 10dvw;
         bottom: -5dvh;
     }
+    .home-page-lifestyle-promo-section{
+        background-image: radial-gradient(
+        ellipse at center,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 78%
+        ),url("../assets/images/black_girl_vibing_outdoors.png");
+        gap: 50px;
+        padding: 150px 0 150px 100px;
+    }
+    .home-page-lifestyle-promo-section h2{
+        width: 580px;
+    }
+    .home-page-lifestyle-promo-section-paragraph-button-container{
+        gap: 40px;
+        width: 500px;
+    }
 }
 @media screen and (min-width: 1280px) {
     .home-page-hero-section {
@@ -188,9 +225,20 @@
         right: 17dvw;
         bottom: -8.5dvh;
     }
+    .home-page-lifestyle-promo-section{
+        background-image: radial-gradient(
+        ellipse at center,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 65%
+        ),url("../assets/images/black_girl_vibing_outdoors.png");
+    }
 }
 @media screen and (min-width: 1440px) {
     .home-page-intro-media-section {
         padding-top: 65dvh;
+    }
+    .home-page-lifestyle-promo-section h2{
+        width: 41dvw;
     }
 }

@@ -3,6 +3,7 @@ import Footer from '../../components/layout/Footer'
 import Hero from './Hero'
 import IntroMedia from './IntroMedia'
 import Manifesto from './Manifesto'
+import LifestylePromo from './LifestylePromo'
 import '../../styles/HomeStyles.css'
 
 const Home: React.FC = () => {
@@ -13,6 +14,7 @@ const Home: React.FC = () => {
                 <Hero />     
                 <IntroMedia />
                 <Manifesto />
+                <LifestylePromo />
             </main>
             <Footer />
         </>
