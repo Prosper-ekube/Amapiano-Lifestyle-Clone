@@ -18,7 +18,7 @@ const Sponsorship = () => {
                 </p>
                 <Button style={{marginTop: isDesktopOrLaptop ? '15px' : '5px'}} text={'Join Our Sponsors'} blackBgWhiteText />
             </div>
-            <div className="marquee">
+            <div className="marquee" style={{width: '100%'}}>
                 <div className="marquee-track">
                     <img alt="Sponsors' Brands" className="home-page-sponsor-brands" src={sponsors} />
                     <img alt="Sponsors' Brands" className="home-page-sponsor-brands" src={sponsors} />

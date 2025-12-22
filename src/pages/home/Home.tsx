@@ -5,6 +5,7 @@ import IntroMedia from './IntroMedia'
 import Manifesto from './Manifesto'
 import LifestylePromo from './LifestylePromo'
 import Sponsorship from './Sponsorship'
+import Highlights from './Highlights'
 import '../../styles/HomeStyles.css'
 
 const Home: React.FC = () => {
@@ -17,6 +18,7 @@ const Home: React.FC = () => {
                 <Manifesto />
                 <LifestylePromo />
                 <Sponsorship />
+                <Highlights />
             </main>
             <Footer />
         </>
