@@ -299,19 +299,19 @@
         top: -110px;
     }
     .home-page-manifesto-images-container {
-        height: 75dvh;
-        top: -48dvh;
+        height: 90dvh;
+        top: -57dvh;
     }
     .home-page-manifesto-image {
-        width: 32.5dvw;
+        width: 32dvw;
     }
     .home-page-manifesto-section-text-container {
-        padding: 48dvh 0 12dvh;
+        padding: 58dvh 0 12dvh;
     }
     .home-page-manifesto-section-party-shades {
         height: 22dvh;
         left: 15.1dvw;
-        top: 37dvh;
+        top: 47dvh;
     }
     .home-page-manifesto-section-red-cup {
         height: 28dvh;
